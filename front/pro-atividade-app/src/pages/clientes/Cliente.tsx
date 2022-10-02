@@ -1,10 +1,12 @@
 import React from 'react';
 import ClienteLista from './ClienteLista';
 
-export default function Cliente() {
+const Cliente: React.FC = () => {
     return (
         <>
             <ClienteLista />
         </>
     );
 }
+
+export default Cliente;
